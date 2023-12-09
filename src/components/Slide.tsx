@@ -29,7 +29,8 @@ const Slide:React.FC<propsType> = ({img,title}) => {
         </div>
         </div>
         
-    <div className="w-[100% h-[300px] md:h-auto rounded-xl object-cover object-right 
+    <div 
+        className="w-[100% h-[300px] md:h-auto rounded-xl object-cover object-right 
     md:object-left-bottom">
       <Image
        src={"/banner-1.jpg"}
