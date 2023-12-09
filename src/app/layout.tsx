@@ -30,6 +30,7 @@ export default function RootLayout({
       <HeaderMain />
       <Navbar />
       <Hero />
+        <Slide />
         {children}
         <Footer />
         </body>
