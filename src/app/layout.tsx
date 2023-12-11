@@ -20,7 +20,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+<<<<<<< HEAD
         <Navbar />
+=======
+      <HeaderTop />
+      <HeaderMain />
+      <Navbar />
+      <Hero />
+        <Slide />
+>>>>>>> ee69120b7702f415170cacb2b3157a9f02e7b0d5
         {children}
         <Footer />
         </body>
