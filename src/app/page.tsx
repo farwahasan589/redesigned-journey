@@ -1,12 +1,15 @@
 import Hero from "@/components/Hero";
-import Testimonial from "@/components/Testimonial";
+import About from "@/components/about";
+import Contact from "@/components/contact";
+import Skills from "@/components/skills";
 
 export default function Home() {
  return (
-     <main>
-        <Testimonial />
-  </main>
-
-  
+<div>  
+    <Hero />
+    <About /> 
+ <Contact /> 
+ <Skills />    
+     </div>
  )
  };
