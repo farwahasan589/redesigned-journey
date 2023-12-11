@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Contact = () => {
   return (
     <div id="Contact">
@@ -10,11 +9,6 @@ const Contact = () => {
         width="100%"
         height="100%"
         className="absolute inset-0"
-        frameBorder={0}
-        title="map"
-        marginHeight={0}
-        marginWidth={0}
-        scrolling="no"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28951.591953317093!2d66.99054051945475!3d24.899721388085194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fb699526b65%3A0xd070dc4494bc211f!2sRizvia%20Society%20Karachi%2C%20Karachi%20City%2C%20Sindh%2074600%2C%20Pakistan!5e0!3m2!1sen!2s!4v1702204692002!5m2!1sen!2s"
         style={{ filter: " contrast(1.2) opacity(0.4)" }}
       />

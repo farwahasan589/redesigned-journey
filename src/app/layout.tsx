@@ -4,7 +4,7 @@ import './globals.css'
 import Image from 'next/image';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
-
+import Hero from '@/components/Hero';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -20,16 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-<<<<<<< HEAD
-        <Navbar />
-=======
-      <HeaderTop />
-      <HeaderMain />
       <Navbar />
-      <Hero />
-        <Slide />
->>>>>>> ee69120b7702f415170cacb2b3157a9f02e7b0d5
-        {children}
+        <Hero />
+       {children}
         <Footer />
         </body>
     </html>
